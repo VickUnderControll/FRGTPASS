@@ -1,0 +1,44 @@
+/* styles.css */
+.root {
+    -fx-font-family: "Arial";
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-background-color: #f0f0f0;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.text-field {
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+}
+
+.text-field:focused {
+    -fx-border-color: #4CAF50;
+}
+
+.hbox {
+    -fx-spacing: 10;
+    -fx-alignment: center-left;
+}
+
+.vbox {
+    -fx-spacing: 15;
+    -fx-alignment: center-left;
+}
