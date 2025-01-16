@@ -172,6 +172,7 @@ public class Main extends Application {
         detailStage.getIcons().add(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/OIG2.png"))));
 
 
+
         // Crear un GridPane para alinear los elementos
         GridPane gridPane = new GridPane();
         gridPane.setHgap(10);
